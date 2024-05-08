@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="login.css">
+</head>
+<body >
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="home.html">Home</a></li>
+                
+                <li class="dropdown">
+                    <a href="#food" class="dropbtn">Menu</a>
+                    <div class="dropdown-content">
+                        <a href="#">vegetable</a>
+                        <a href="#">Non-Veg</a>
+                        <a href="#">Alochol</a>
+                        <a href="snacks.html">Snacks</a>
+                    </div>
+            
+                <li><a href="blog.html">Blogs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="login"><a href="login.html">ADMIN!
+                    
+                </a></li>
+            </ul>
+            <h1 class="logo"><a href="home.html"><img src="Assests/images/logo.jpg"></a></h1>
+        </div>
+    </nav>
+<br><br><br><br>
+    <div class="Form-box">
+        <form class="Login-form">
+            <h1>Login</h1>
+            <div class="input-box">
+                <input type="text" required>
+                <label><strong>Email</strong></label>
+                <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="input-box">
+                <input type="password" required>
+                <label><strong>Password</strong></label>
+                <ion-icon name="lock-closed-outline"></ion-icon>
+            </div>
+            <div class="checkbox">
+                <span>
+                    <input type="checkbox" id="login-checkbox">
+                    <label for="login-checkbox">Remember Me</label>
+                </span>
+                <h5>Forget password ?</h5>
+            </div>
+
+            <div class="container text-center">
+                <div class="row">
+                  <div class="col">
+                    <button type="submit" class="submit-btn">Submit</button>
+                  </div>
+                  <div class="col">
+                   <a href="home.html"><button type="button" class="submit-btn">Skip Login</button></a>
+                  </div>
+                </div>
+                <h5 class="Register-btn">Dont have an account ? Register</h5>
+           
+        </form>
+        
+    </div>
+
+    
+</body>
+</html>
